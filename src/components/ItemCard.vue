@@ -27,13 +27,17 @@ defineProps<IProps>();
   padding: 18px;
   overflow: auto;
 }
+.item-card:hover {
+  border: 2px solid rgb(75, 106, 168);
+  cursor: pointer;
+}
 .item-card__title {
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 25px;
   color: #333333;
 }
 .item-card__content {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 21px;
   color: #555;
 }

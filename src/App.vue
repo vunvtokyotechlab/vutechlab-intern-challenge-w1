@@ -11,6 +11,6 @@ import ItemCardList from "./views/ItemCardList.vue";
 h1.title {
   color: #000;
   text-align: center;
-  font-size: 56px;
+  font-size: 3.5rem;
 }
 </style>
